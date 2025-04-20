@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Rina & Budi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung pemutar musik.
+    </audio>
+    <div class="container">
+        <h1>💍 Rina & Budi</h1>
+        <p>Dengan bahagia kami mengundang Anda ke hari istimewa kami</p>
+        
+        <div class="photo">
+            <img src="assets/pasangan.jpg" alt="Foto Pasangan" />
+        </div>
+
+        <div class="details">
+            <p><strong>📅 Tanggal:</strong> 20 Juni 2025</p>
+            <p><strong>⏰ Waktu:</strong> 10.00 WIB - Selesai</p>
+            <p><strong>📍 Lokasi:</strong> Gedung Serbaguna Cinta Abadi</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div id="countdown" class="countdown"></div>
+
+        <h2>💌 RSVP</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="message" placeholder="Ucapan atau konfirmasi kehadiran" rows="4" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

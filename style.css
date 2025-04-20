@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: url('https://i.ibb.co/VgNZ2dF/floral-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h1 {
+    font-size: 2.8rem;
+    color: #b76e79;
+}
+.photo img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+.countdown {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #b22222;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+button {
+    padding: 10px;
+    background-color: #b76e79;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #944d5a;
+}
+.map {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
